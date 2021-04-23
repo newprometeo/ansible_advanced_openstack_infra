@@ -24,9 +24,9 @@ openstack_flavors:
   - name: m2.medium
     cloud: "{{ openstack_cloud }}"
     state: present
-    vcpus: 2
+    vcpus: 1
     ram: 2048
-    disk: 20
+    disk: 10
 
 openstack_keypair:
 
